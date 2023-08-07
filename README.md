@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/ye3t20pavgxwbt4q?svg=true)](https://ci.appveyor.com/project/DurckinaMilana/ahj-media)
