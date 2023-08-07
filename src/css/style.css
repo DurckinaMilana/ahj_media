@@ -1,0 +1,97 @@
+body {
+    position: relative;
+}
+form {
+    margin: 50px auto;
+    width: 50%;
+    height: 450px;
+    border: 1px solid #7b8289;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ced4da;
+}
+.form-request {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 70px auto;
+    width: 30%;
+    height: 260px;
+    color: #495057;
+    border: 1px solid #7b8289;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ced4da;
+}
+.btns {
+    position: relative;
+}
+.btn-close, .btn-ok {
+    position: absolute;
+    right: 4px;
+}
+.btn-close {
+    margin-right: 50px;
+}
+input {
+    box-sizing: border-box;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    width: 100%;
+    outline: none;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: .5rem;
+}
+.posts {
+    height: 90%;
+}
+.post {
+    color: #495057;
+    border: 1px solid #9aa0a5;
+    border-radius: .5rem;
+    padding: .375rem;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+p {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.time {
+    margin-top: -5px;
+}
+span {
+    font-size: 0.7rem;
+}
+.btn {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 0.8rem;
+    color: #495057;
+    line-height: 1.5;
+    border-radius: .25rem;
+    border: 1px solid #ced4da;
+}
+
+.form-control {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.form-error {
+    position: absolute;
+    padding: 5px 10px;
+    width: 200px;
+    background: #fff;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
